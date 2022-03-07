@@ -1,0 +1,48 @@
+.container{
+    margin: auto;
+    width: 80%;
+    border: 2px solid red;
+    min-height: 90vh;
+    text-align: center;
+}
+.btn{
+    width: 40%;
+    flex: content;
+    padding: 20px;
+    margin: 20px;
+    background-color: powderblue;
+    font-size: 20px;
+    color: blue;
+    font-weight: 900;
+    transition: width .3s;
+}
+.btn:hover{
+    background: #51517c;
+    color: white;
+    cursor: pointer;
+    width: 42%;
+    font-size: 25px;
+    
+
+}
+.input-tag{
+    margin-top: 15vh;
+    
+}
+.input-tag input{
+    padding: 30px;
+    width: 40%;
+}
+.show{
+    display: block !important;
+}
+#cel-div{
+    display: none;
+}
+#feh-div{
+    display: none;
+}
+.input-field:focus{
+    border: 3px solid green;
+    box-shadow: 5px 5px 3px lightblue
+}

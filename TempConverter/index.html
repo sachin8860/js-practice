@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Please select your input type - </h1>
+        <input class="btn" id="cel" type="button" value="Celcius" name="c" onclick="visi()" />
+        <input class="btn" id="fah" type="button" value="Fahrenheit" name="f" onclick="visi1()" />
+
+        <div id="cel-div" class="input-tag">
+            <input class="input-field" id="inp" type="number" placeholder="Enter temp in Celcius.." oninput="ctof(this.value)">
+            <br>
+            <h2 id="result"></h2>
+        </div>
+        <div id="feh-div" class="input-tag">
+            <input class="input-field"  id="inp1" type="number" placeholder="Enter temp in Fahrenheit.." oninput="ftoc(this.value)">
+            <br>
+            <h2 id="result1"></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
