@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Guess a No: </h1>
+        <input class="inp" id="inpp" type="text" placeholder="Enter No between 0 to 10">
+        <br>
+        <input class="btn" type="submit" name="submit" value="Guess" onclick="myFunction()">
+        <input class="btn-clear" type="reset" name="submit" value="Clear" onclick="g()">
+        <h1 id="result"></h1>
+        <span onClick="window.location.reload();">Relaunch Game <i class="fa fa-refresh" aria-hidden="true"></i></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
